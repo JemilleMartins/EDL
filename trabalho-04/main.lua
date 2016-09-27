@@ -12,7 +12,7 @@ function love.load( )
 	velocidade=400
 	pfix=pybola
 
-	 --Nome: variável "pwbola"
+	 --Nome:"pwbola=50"
 	-- Propriedade:atribuiçao de valor a variavel
 	-- Binding time: execuçao
 	-- Explicação:Lua é uma Linguagens com
@@ -32,7 +32,7 @@ function love.update(dt)
     	
     end
  -- Nome: palavra reservada "end"
--- Propriedade: fechamento de bloco
+-- Propriedade: semântica 
 -- Binding time: design da linguagem
 -- Explicação: palavra "end" foi definida para fechamento de blocos
 --durante o design da linguagem.
@@ -81,7 +81,7 @@ function love.keypressed(key)
 		pybola=pfix
 	end
 -- Nome: palavra reservada "if"
--- Propriedade: Teste condicional 
+-- Propriedade:semântica Teste condicional 
 -- Binding time: design da linguagem
 -- Explicação: Durante o design da linguagem, decidiu-se que
 -- para testar se certa condição é verdadeira fosse usada "if"
